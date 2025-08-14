@@ -5,10 +5,17 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Assistant Project Manager",
+    cardImage: "assets/images/experience-page/Houle_Logo_Standard.jpg",
+    place: "Houle Electric",
+    time: "(Jan, 2024 - Aug, 2024)",
+    desp: "<li>Crafted mobile-friendly websites and transitioned legacy site to mobile-friendly platform.</li>  <li>Contributed back-end development experience and collaborated on multiple APIs crucial to functionality. </li> <li> Maintained strong education in latest technologies, software and hardware products for use in various projects.</li>", 
+  },
+  {
     title: "Retail Sales Associate",
     cardImage: "assets/images/experience-page/Bbuy.png",
     place: "Best Buy",
-    time: "(Sept, 2021 - Present)",
+    time: "(Sept, 2021 - Aug, 2023)",
     desp: "<li>Welcomed customers and discussing their needs about mobile phones and data plans</li> <li>sold a broad range of mobile products and services using a proven structured approach while at the same time developing in-depth knowledge of the latest mobile technology.</li> <li>Handled all aspects of the sale including: customer contracts and warranties, customer payments, cash and credit card/check transactions.</li>",
   },
   {
@@ -18,6 +25,7 @@ const exp = [
     time: "(Mar, 2020 - Aug, 2021)",
     desp: "<li>Crafted mobile-friendly websites and transitioned legacy site to mobile-friendly platform.</li>  <li>Contributed back-end development experience and collaborated on multiple APIs crucial to functionality. </li> <li> Maintained strong education in latest technologies, software and hardware products for use in various projects.</li>", 
   },
+  
 ];
 
 const showCards2 = () => {

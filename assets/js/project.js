@@ -21,6 +21,30 @@ const projects = [
     Previewlink: "",
     Githublink: "https://github.com/Chaiitanyaa/Hospital-Management",
   },
+  {
+    title: "RhythmBlocks",
+    cardImage: "",
+    description: "A rhythm-based game built with React and the Web Audio API.",
+    tagimg: "",
+    Previewlink: "",
+    Githublink: "https://github.com/Chaiitanyaa/RhythmBlocks",
+  },
+  {
+    title: "BraileBeats",
+    cardImage: "",
+    description: "A rhythm-based game built with React and the Web Audio API.",
+    tagimg: "",
+    Previewlink: "",
+    Githublink: "https://github.com/Chaiitanyaa/BraileBeats",
+  },
+  {
+    title: "SwiftTrade",
+    cardImage: "",
+    description: "A rhythm-based game built with React and the Web Audio API.",
+    tagimg: "",
+    Previewlink: "",
+    Githublink: "https://github.com/Chaiitanyaa/SwiftTrade",
+  },
 ];
 
 // function for rendering project cards data
