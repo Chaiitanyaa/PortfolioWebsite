@@ -305,13 +305,14 @@ const scrollToTop = () => {
 
 // Window Loads
 $(function () {
-  let bodyElement = $(`body`);
+  let bodyElement = $(`body`);http://127.0.0.1:5500/experience.html
   bodyElement.prepend(header);
   bodyElement.append(footer);
   bodyElement.append(upArrow);
   $("#btnScrollToTop").css("visibility", "hidden");
 
   const resumeModal = $(`
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <div class="modal fade" id="resumeModal" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog modal-xl" role="document">
         <div class="modal-content">
