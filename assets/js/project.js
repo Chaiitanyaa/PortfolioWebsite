@@ -6,44 +6,75 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
-    title: "OFFLINE_",
-    cardImage: "assets/images/project-page/Offline.jpg",
-    description: "A Physics Calculator app based on java",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    title: "Social Spark",
+    cardImage: "assets/images/project-page/social-spark.png",
+    description:
+      "AI-assisted matcher that pairs production companies with marketing influencers by product fit and audience reach.",
+    tagimg: "",
+    Previewlink: "", // if you publish a demo, drop the URL here
+    Githublink: "https://github.com/Chaiitanyaa/Social-Spark",
+  },
+  {
+    title: "BraileBeats",
+    cardImage: "assets/images/project-page/brailebeats.png",
+    description:
+      "Prototype tool helping visually challenged learners explore rhythm and musical patterns.",
+    tagimg: "",
     Previewlink: "",
-    Githublink: "https://github.com/nandiniigarg/OFFLINE_",
+    Githublink: "https://github.com/Chaiitanyaa/BraileBeats",
+  },
+  {
+    title: "Airline Manager",
+    cardImage: "assets/images/project-page/airline-manager.png",
+    description:
+      "CLI utilities for filtering and analyzing airline datasets across multiple formats.",
+    tagimg: "",
+    Previewlink: "",
+    Githublink: "https://github.com/Chaiitanyaa/Airline-Manager",
+  },
+  {
+    title: "Portfolio Website",
+    cardImage: "assets/images/project-page/PortfolioWebsite.png",
+    description:
+      "Responsive personal site with theme toggle, AOS animations, and modular components.",
+    tagimg: "",
+    Previewlink: "https://chaiitanyaa.com", // keep if live
+    Githublink: "https://github.com/Chaiitanyaa/PortfolioWebsite",
   },
   {
     title: "Hospital System",
-    cardImage: "",
-    description: "A database system based on C++ that utilises MySQL to handle tasks of a general hospital ",
+    cardImage: "assets/images/project-page/hospital.png",
+    description:
+      "C++ + MySQL practice project for managing basic hospital records and operations.",
     tagimg: "",
     Previewlink: "",
     Githublink: "https://github.com/Chaiitanyaa/Hospital-Management",
   },
   {
     title: "RhythmBlocks",
-    cardImage: "",
-    description: "A rhythm-based game built with React and the Web Audio API.",
+    cardImage: "assets/images/project-page/rhythmblocks.png",
+    description:
+      "Rhythm-based game prototype built with React and Web Audio API.",
     tagimg: "",
     Previewlink: "",
     Githublink: "https://github.com/Chaiitanyaa/RhythmBlocks",
   },
   {
-    title: "BraileBeats",
-    cardImage: "",
-    description: "A rhythm-based game built with React and the Web Audio API.",
-    tagimg: "",
-    Previewlink: "",
-    Githublink: "https://github.com/Chaiitanyaa/BraileBeats",
-  },
-  {
     title: "SwiftTrade",
-    cardImage: "",
-    description: "A rhythm-based game built with React and the Web Audio API.",
+    cardImage: "assets/images/project-page/swifttrade.png",
+    description:
+      "In-progress trading dashboard prototype; focus on clean UI and modular data sources.",
     tagimg: "",
     Previewlink: "",
     Githublink: "https://github.com/Chaiitanyaa/SwiftTrade",
+  },
+  {
+    title: "OFFLINE_",
+    cardImage: "assets/images/project-page/Offline.jpg",
+    description: "A Physics Calculator app based on java",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "",
+    Githublink: "https://github.com/nandiniigarg/OFFLINE_",
   },
 ];
 

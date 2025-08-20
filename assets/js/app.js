@@ -29,7 +29,7 @@ let header = $(`
 
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
 
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="Chaiitanyaa-COOP-Reesume.pdf" target="_blank" >Resume</a></li>
+  <li class="nav-item nav-item-hover"><a class="nav-link" href="assets/ResumeFiles/ChaiitanyaaResume.pdf" id="resume-link">Resume</a></li>
    
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
@@ -311,6 +311,30 @@ $(function () {
   bodyElement.append(upArrow);
   $("#btnScrollToTop").css("visibility", "hidden");
 
+  const resumeModal = $(`
+    <div class="modal fade" id="resumeModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">My Resume</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" style="height:80vh;">
+            <iframe src="assets/ResumeFiles/ChaiitanyaaResume.pdf" style="width:100%; height:100%;" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    `);
+    $("body").append(resumeModal);
+
+  $(document).on("click", "#resume-link", function (e) {
+    e.preventDefault();
+    $("#resumeModal").modal("show");
+  });
+
   //toggler hamburger functions
   const menuBtn = document.querySelector(".navbar-toggler");
   let menuOpen = false;
@@ -439,8 +463,6 @@ $(window).on("load", function () {
 });
 
 //send button animation
-
-
 $(function submitAnimation() {
   const name = document.querySelector("#name")
   const emailAdress = document.querySelector("#email")
