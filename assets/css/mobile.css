@@ -1,0 +1,38 @@
+/* Make images scale down on small screens */
+img, svg, video, canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Stop overflow from wide elements */
+.container, .container-fluid, .row, .col, section, main {
+  overflow-wrap: anywhere;
+}
+
+/* Better tap targets */
+button, .btn, a.btn, .nav-link, .navbar-brand {
+  min-height: 44px;
+  padding: 0.6rem 0.9rem;
+}
+
+/* Prevent tiny text on mobile */
+html { font-size: 16px; }
+h1 { font-size: clamp(1.6rem, 4.5vw, 2.25rem); }
+h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); }
+p, li { font-size: clamp(0.98rem, 2.8vw, 1.05rem); }
+
+/* Reduce big paddings on mobile */
+@media (max-width: 576px) {
+  .container, .container-fluid { padding-left: 0.9rem; padding-right: 0.9rem; }
+  section { padding: 1.25rem 0; }
+  .hero, .jumbotron { padding: 1.5rem 1rem; }
+  .card { margin-bottom: 1rem; }
+}
+
+/* Kill horizontal scroll caused by 100vw + scrollbar */
+html, body { max-width: 100%; overflow-x: hidden; }
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
