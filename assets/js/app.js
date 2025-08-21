@@ -517,19 +517,16 @@ document.body.appendChild(script);
 ------------------------- */
 let header = $(`
 <nav class="navbar navbar-expand-lg fixed-top dark-theme" id="navbar">
-  <a class="navbar-brand" href="index.html">Chaiitanyaa Chopraa</a>
+<a class="navbar-brand" href="index.html">Chaiitanyaa Chopraa </a>
+<button class="hamburger_wrapper navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
-  <!-- Bootstrap-friendly toggler button -->
-  <button class="hamburger_wrapper navbar-toggler" type="button"
-          data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation">
-    <div id="js-hamburger" class="hamburger">
-      <span class="first"></span>
-      <span class="second"></span>
-      <span class="third"></span>
-    </div>
-  </button>
+  <div id="js-hamburger" class="hamburger">
+    <span class="first"></span>
+    <span class="second"></span>
+    <span class="third"></span>
+  </div>
+  
+</button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto" id="navbar-content">

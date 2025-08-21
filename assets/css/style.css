@@ -233,6 +233,15 @@ html {
   font-size: 30px;
   font-weight: bold;
 }
+.header {                /* include any other place your name appears */
+  font-variant-ligatures: none;
+  font-feature-settings: "liga" 0, "clig" 0, "dlig" 0, "calt" 0, "kern" 1;
+  text-rendering: auto;          /* avoid forcing ligatures */
+  letter-spacing: normal;
+  unicode-bidi: normal;
+  direction: ltr;
+  white-space: nowrap;           /* keeps the name on one line */
+}
 
 .navbar {
   color: #000000;
