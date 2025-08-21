@@ -54,7 +54,7 @@ html, body { max-width: 100%; overflow-x: hidden; }
   #navbar .hamburger span {
     display: block;
     border-radius: 2px;
-    background: #fff;
+    background: currentColor;
   }
 }
 

@@ -516,7 +516,8 @@ document.body.appendChild(script);
    Header (Navbar injected)
 ------------------------- */
 let header = $(`
-<nav class="navbar navbar-expand-lg fixed-top light-theme" id="navbar">
+<meta charset="utf-8">
+<nav class="navbar navbar-expand-lg fixed-top dark-theme" id="navbar">
 <a class="navbar-brand" href="index.html">Chaiitanyaa Chopraa </a>
 <button class="hamburger_wrapper navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 

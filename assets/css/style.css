@@ -229,9 +229,8 @@ html {
 }
 
 .navbar-brand {
-  font-family: Agustina;
-  font-size: 30px;
-  font-weight: bold;
+  font-family: "Poppins", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif !important;
+  font-variant-ligatures: none;
 }
 .header {                /* include any other place your name appears */
   font-variant-ligatures: none;
