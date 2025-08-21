@@ -36,3 +36,11 @@ html, body { max-width: 100%; overflow-x: hidden; }
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
 }
+
+.navbar { padding: 0.6rem 1rem; }
+.navbar .navbar-brand { font-size: 1.05rem; }
+.navbar .navbar-nav .nav-link { padding: 0.6rem 0.9rem; }
+
+.nav-link + .nav-link { margin-left: 0; }
+.navbar-nav .nav-item { margin-right: 0.25rem; }
+

@@ -1092,11 +1092,3 @@ outline: none;
     transform: scale(0) rotateZ(-90deg);
   }
 }
-
-.logo-box {
-  height: 160px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.logo-box .featured-image { height: 100%; width: auto; object-fit: contain; }
